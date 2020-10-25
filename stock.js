@@ -10,7 +10,7 @@ var stock = {
 
         if (start < 10) {
             start += 1;
-        } else if (start > 80) {
+        } else if (start > 50) {
             start -= 2;
         }
 
