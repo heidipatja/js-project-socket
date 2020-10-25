@@ -29,7 +29,7 @@ var icecreamcoin = {
 
 var currencies = [unicoin, bacoin, icecreamcoin];
 
-io.origins(['https://heidipatja.me:443', "http://localhost:3000"]);
+io.origins(['https://project.heidipatja.me:443', "http://localhost:3000"]);
 
 io.on('connection', function(socket) {
     console.log('a user connected');
@@ -49,6 +49,6 @@ setInterval(function () {
     io.emit("currencies", currencies);
 }, 3000);
 
-server.listen(8300);
+server.listen(8383);
 
-console.log('Socket server is running on port 8300')
+console.log('Socket server is running on port 8383')

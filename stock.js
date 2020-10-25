@@ -10,6 +10,8 @@ var stock = {
 
         if (start < 10) {
             start += 1;
+        } else if (start > 80) {
+            start -= 2;
         }
 
         return start * rate + variance * stock.randomAroundZero();
