@@ -11,7 +11,7 @@ var stock = {
         if (start < 10) {
             start += 1;
         } else if (start > 200) {
-            start -= 2;
+            start -= 180;
         }
 
         return start * rate + variance * stock.randomAroundZero();

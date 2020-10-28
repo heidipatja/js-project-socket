@@ -8,8 +8,8 @@ const stock = require("./stock.js");
 
 var unicoin = {
     name: "UniCoin",
-    rate: 1.002,
-    variance: 0.6,
+    rate: 1.0001,
+    variance: 0.1,
     startingPoint: 16,
 };
 
@@ -23,7 +23,7 @@ var bacoin = {
 var icecreamcoin = {
     name: "IceCreamCoin",
     rate: 1.0015,
-    variance: 0.6,
+    variance: 0.3,
     startingPoint: 19,
 };
 
